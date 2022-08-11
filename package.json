@@ -4,6 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "third": "jest",
     "test": "cucumber-js"
   },
   "repository": {
@@ -17,6 +18,8 @@
   },
   "homepage": "https://github.com/maddyharrop/CucumberSandwich#readme",
   "devDependencies": {
-    "@cucumber/cucumber": "^8.5.1"
+    "@cucumber/cucumber": "^8.5.1",
+    "chromedriver": "^104.0.0",
+    "selenium-webdriver": "^4.4.0"
   }
 }
